@@ -22,6 +22,7 @@ export default async function () {
   try {
     await page.goto('https://test.k6.io/');
     await page.screenshot({ path: 'screenshots/screenshot.png' });
+    console.log("Checking GIT commit");
   } finally {
     await page.close();
   }
