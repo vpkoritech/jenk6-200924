@@ -1,3 +1,4 @@
+// Import the sleep function from the k6 library
 import { sleep } from 'k6'
 import http from 'k6/http'
 
